@@ -629,10 +629,6 @@
       .crow { grid-template-columns: 1fr; }
     }
   </style>
-  <script>
-    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-  </script>
-  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
@@ -733,7 +729,7 @@
 <section id="stats">
   <div class="stats-grid">
     <div class="stat-item reveal">
-      <span class="stat-num" data-target="4">0</span>
+      <span class="stat-num" data-target="2">2</span>
       <span class="stat-label">Active Ventures</span>
     </div>
     <div class="stat-item reveal" style="transition-delay:.1s">
@@ -741,8 +737,8 @@
       <span class="stat-label">Ideas in Progress</span>
     </div>
     <div class="stat-item reveal" style="transition-delay:.2s">
-      <span class="stat-num" data-target="1">0</span>
-      <span class="stat-label">Year of Foundation</span>
+      <span class="stat-num">Nov 2025</span>
+      <span class="stat-label">Founded</span>
     </div>
     <div class="stat-item reveal" style="transition-delay:.3s">
       <span class="stat-num">🌏</span>
@@ -807,7 +803,7 @@
 
     <div class="vgrid">
       <!-- Featured: Labs -->
-      <div class="vcard featured reveal">
+      <div class="vcard featured reveal" onclick="window.location='labs.html'" style="cursor:pointer">
         <div class="vicon vi-l">🔬</div>
         <div class="vbody">
           <div class="vname">Nobo Bindu Labs</div>
@@ -820,7 +816,7 @@
       </div>
 
       <!-- Venture -->
-      <div class="vcard reveal" style="transition-delay:.1s">
+      <div class="vcard reveal" style="transition-delay:.1s;cursor:pointer" onclick="window.location='venture.html'">
         <div class="vicon vi-v">💡</div>
         <div class="vbody">
           <div class="vname">Nobo Bindu Venture</div>
@@ -833,7 +829,7 @@
       </div>
 
       <!-- Organisation -->
-      <div class="vcard reveal" style="transition-delay:.15s">
+      <div class="vcard reveal" style="transition-delay:.15s;cursor:pointer" onclick="window.location='org.html'">
         <div class="vicon vi-o">🤝</div>
         <div class="vbody">
           <div class="vname">Nobo Bindu Organisation</div>
